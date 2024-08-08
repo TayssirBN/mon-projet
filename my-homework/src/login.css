@@ -1,0 +1,138 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(255,0,0,0);
+    border: 2px solid rgba(255,255,255,2);
+    color: #fff;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0px 0px;
+}
+.parent1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: #fff;
+    padding-bottom:250px ;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(255,0,0,0);
+   
+}
+.parent h1{
+    font-size: 36px;
+    text-align: center;
+}
+.parent1 h2{
+    font-size: 36px;
+    text-align: center;
+}
+.input-box input{
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,2);
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.parent1.input-box input{
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,2);
+    border-radius: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.parent .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    margin:45px 0;
+    font-size:20px;
+    padding:20px 45px 20px 20px;
+}
+.parent1 .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    margin:55px 0;
+    font-size:20px;
+    padding:20px 45px 60px 20px;
+}
+.input-box .iconuser{
+    position: absolute;
+    right:100px;
+    top:90%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+}
+.input-box .iconlock{
+    position: absolute;
+    right: 100px;
+    top:90%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;  
+    
+}
+.parent .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.parent .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.parent .child{
+    height:50vw;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.child label{
+    font-size: 30px;
+    text-align: center;
+}
+.parent label{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(32, 73, 109);
+}
+.parent1 label{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(32, 73, 109);
+}
+
+.parent .input-box p{
+    color: rgb(187, 54, 156);
+}
+.parent .link p {
+    color: black;
+    text-decoration: underline;
+}

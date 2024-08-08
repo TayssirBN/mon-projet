@@ -1,0 +1,16 @@
+.icon{
+    
+        position: absolute;
+        right:370px;
+        top:47%;
+        transform: translateY(-50%);
+        font-size: 50px;
+        color: #2b2626;
+    
+}
+.link p {
+        color: black;
+        text-decoration: underline;
+        text-align: center;
+
+}
